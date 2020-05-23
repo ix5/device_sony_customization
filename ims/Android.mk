@@ -14,15 +14,17 @@
 # limitations under the License.
 
 # ODM apps
-include $(CLEAR_VARS)
-LOCAL_MODULE := datastatusnotification
-LOCAL_SRC_FILES := ims/datastatusnotification.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_PRODUCT_MODULE := true
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
+
+# Not yet available as of ODM v7
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := datastatusnotification
+#LOCAL_SRC_FILES := ims/datastatusnotification.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_PRODUCT_MODULE := true
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_MODULE_SUFFIX := .apk
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := embms.apk
@@ -96,16 +98,18 @@ include $(BUILD_PREBUILT)
 
 
 # ODM priv-apps
-include $(CLEAR_VARS)
-LOCAL_MODULE := dpmserviceapp
-LOCAL_SRC_FILES := ims/dpmserviceapp.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_PRODUCT_MODULE := true
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
+
+# Not yet available as of ODM v7
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := dpmserviceapp
+#LOCAL_SRC_FILES := ims/dpmserviceapp.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_PRODUCT_MODULE := true
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_PRIVILEGED_MODULE := true
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ims
