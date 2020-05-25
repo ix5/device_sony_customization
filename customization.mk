@@ -146,7 +146,8 @@ PRODUCT_PACKAGES += \
     libcne \
     libcneoplookup \
     libcneqmiutils \
-    cnd
+    cnd \
+    cnd.rc
 
 # Permissions for Hotword
 PRODUCT_COPY_FILES += \
